@@ -6,10 +6,10 @@ export default function NavMenu() {
     <div>
     <div className="absolute right-0 hidden md:block">
     <ul className="flex flex-row gap-10 justify-between font-bold">
-      <li className="hover:underline decoration-yellow-500 underline-offset-4"><a href="/">Home</a></li>
-      <li className="hover:underline decoration-yellow-500 underline-offset-4"><a href="#about">About Us</a></li>
-      <li className="hover:underline decoration-yellow-500 underline-offset-4"><a href="#services">Services</a></li>
-      <li className="hover:underline decoration-yellow-500 underline-offset-4"><a href="#contact">Contat Us</a></li>
+      <li className="hover:underline decoration-yellow-500 underline-offset-4"><Link href="/">Home</Link></li>
+      <li className="hover:underline decoration-yellow-500 underline-offset-4"><Link href="#about">About Us</Link></li>
+      <li className="hover:underline decoration-yellow-500 underline-offset-4"><Link href="#services">Services</Link></li>
+      <li className="hover:underline decoration-yellow-500 underline-offset-4"><Link href="#contact">Contat Us</Link></li>
     </ul>
   </div>
   <div className="block md:hidden">

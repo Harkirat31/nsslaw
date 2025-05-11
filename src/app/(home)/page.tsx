@@ -1,4 +1,3 @@
-import NavBar from "@/components/nav-bar"
 import Image from "next/image"
 import { BiLocationPlus, BiPhone } from "react-icons/bi"
 import { FaLocationDot } from "react-icons/fa6"
@@ -57,7 +56,7 @@ const Home = () => {
     <div className="h-2  bg-black w-full mt-20  my-2"></div>
 
     <section id="services" className="scroll-mt-24 lg:scroll-mt-28 px-4 md:px-10 lg:px-20 mt-20">
-      <h1 className="font-bold text-3xl mb-10">List of Services</h1>
+      <h1 className="font-bold text-3xl mb-10">Practice Areas</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <div>
           <div className="w-full bg-yellow-500 h-1"></div>

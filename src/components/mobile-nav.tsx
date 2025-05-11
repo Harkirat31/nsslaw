@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 import { useState } from "react";
 
 export default function MobileNav() {
@@ -26,10 +27,10 @@ export default function MobileNav() {
                     ✕
                 </button>
                 <ul className="flex flex-col items-center justify-center h-full gap-8 font-bold">
-                    <li onClick={()=>setIsOpen(false)}><a href="/">Home</a></li>
-                    <li onClick={()=>setIsOpen(false)}><a href="#about">About Us</a></li>
-                    <li onClick={()=>setIsOpen(false)}><a href="#services">Services</a></li>
-                    <li onClick={()=>setIsOpen(false)}><a href="#contact">Contat Us</a></li>
+                    <li onClick={()=>setIsOpen(false)}><Link href="/">Home</Link></li>
+                    <li onClick={()=>setIsOpen(false)}><Link href="#about">About Us</Link></li>
+                    <li onClick={()=>setIsOpen(false)}><Link href="#services">Services</Link></li>
+                    <li onClick={()=>setIsOpen(false)}><Link href="#contact">Contat Us</Link></li>
                 </ul>
             </div>
         </nav>
