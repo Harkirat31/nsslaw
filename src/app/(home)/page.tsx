@@ -71,7 +71,7 @@ const Home = () => {
           <p>{`We provide compassionate and knowledgeable guidance in areas such as divorce, child custody, support, and property division. Whether you're facing separation or need help drafting a domestic agreement, we’re here to protect your rights and prioritize your family's well-being.`}</p>
         </div>
         <div>
-          <div className="w-full bg-yellow-700h-1"></div>
+          <div className="w-full bg-yellow-700 h-1"></div>
           <h1 className="text-xl font-bold mt-2 mb-1">Criminal Defence</h1>
           <p>{`A criminal charge can have serious consequences for your future. We defend your rights at every stage. With a focus on discretion, strategy, and strong advocacy, we work to reduce penalties, protect your record, and pursue the best possible result.`}</p>
         </div>
