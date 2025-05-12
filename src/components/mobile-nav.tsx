@@ -9,7 +9,7 @@ export default function MobileNav() {
         <nav className="relative text-black">
             {/* Hamburger Button - Mobile Only */}
             {!isOpen && <button
-                className=" text-white fixed top-4 right-4 z-50 block md:hidden text-3xl"
+                className=" text-white/80 fixed top-4 right-4 z-50 block md:hidden text-3xl"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 ☰
