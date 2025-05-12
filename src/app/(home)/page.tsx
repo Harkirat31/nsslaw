@@ -109,7 +109,7 @@ const Home = () => {
       <div className="flex flex-row items-start mt-1">
         <p className="mt-1"><FaLocationDot /></p>
         <div className="flex flex-col items-center">
-          <p className="ml-2">808 Britannia Road W, Suite 215A, Missisauga, ON , L5VOA7</p>
+          <p className="ml-2">808 Britannia Road W, Suite 215A, Mississauga, ON , L5VOA7</p>
           {/* <p className="ml-2">(Located in Heartland Town Centre)</p> */}
         </div>
       </div>
